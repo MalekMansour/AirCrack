@@ -17,3 +17,6 @@ import re
 # Global variable to store the list of networks
 networks = []
 selected_network = None
+
+def scan_wifi():
+  pass
