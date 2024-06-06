@@ -13,3 +13,7 @@ import nmap
 import socket
 import subprocess
 import re
+
+# Global variable to store the list of networks
+networks = []
+selected_network = None
