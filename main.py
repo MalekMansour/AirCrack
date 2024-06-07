@@ -34,3 +34,10 @@ def scan_wifi():
         bssid = network.bssid
         signal = network.signal
         print(f"{idx}. SSID: {ssid}, BSSID: {bssid}, Signal: {signal}")
+
+
+def select_network(index):
+    pass
+
+def show_info():
+    pass
