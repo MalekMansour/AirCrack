@@ -24,3 +24,5 @@ def scan_wifi():
     
     iface.scan()
     time.sleep(2)
+
+    networks = iface.scan_results()
