@@ -6,13 +6,12 @@ print(" _/ /   \ \_  _| |_  _| |  \ \_   \ `.___.'\ _| |  \ \_  _/ /   \ \_\ `._
 print("|____| |____||_____||____| |___|   `.____ .'|____| |___||____| |____|`.____ .'|____||____| ") 
 print("Air Crack v.1.0.1 - Author : Malek Mansour - Wifi Hack Tool")
 
-import pywifi
-from pywifi import PyWiFi, const, Profile
-import time
-import nmap
-import socket
 import subprocess
 import re
+import time
+import pywifi
+from pywifi import PyWiFi
+import nmap
 
 # Global variable to store the list of networks
 networks = []
