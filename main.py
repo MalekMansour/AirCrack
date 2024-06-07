@@ -18,4 +18,9 @@ networks = []
 selected_network = None
 
 def scan_wifi():
-  pass
+    global networks
+    wifi = PyWiFi()
+    iface = wifi.interfaces()[0]
+    
+    iface.scan()
+    time.sleep(2)
