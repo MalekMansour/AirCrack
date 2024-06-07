@@ -26,3 +26,10 @@ def scan_wifi():
     time.sleep(2)
 
     networks = iface.scan_results()
+
+    print("Available Networks:")
+    for idx, network in enumerate(networks):
+        ssid = network.ssid
+        bssid = network.bssid
+        signal = network.signal
+        print(f"{idx}. SSID: {ssid}, BSSID: {bssid}, Signal: {signal}")
