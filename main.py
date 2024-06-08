@@ -14,10 +14,11 @@ def main():
     print("|____| |____||_____||____| |___|   `.____ .'|____| |___||____| |____|`.____ .'|____||____| ") 
     print("Air Crack v.1.1.0 - Author : Malek Mansour - Wifi Hack Tool")
 
-# Global variable to store the list of networks
+# Global variables
 networks = []
 selected_network = None
 
+# Scan Wifi
 def scan_wifi():
     global networks
     wifi = PyWiFi()
