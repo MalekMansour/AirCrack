@@ -51,3 +51,4 @@ def show_info():
         return
     
     ssid = selected_network.ssid
+    bssid = selected_network.bssid
