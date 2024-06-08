@@ -5,7 +5,7 @@ def main():
     print("   / ___ \     | |    |  __ /     | |         |  __ /      / ___ \  | |         |  __'.   ")  
     print(" _/ /   \ \_  _| |_  _| |  \ \_   \ `.___.'\ _| |  \ \_  _/ /   \ \_\ `.___.'\ _| |  \ \_  ") 
     print("|____| |____||_____||____| |___|   `.____ .'|____| |___||____| |____|`.____ .'|____||____| ") 
-    print("Air Crack v.1.0.8 - Author : Malek Mansour - Wifi Hack Tool")
+    print("Air Crack v.1.0.9 - Author : Malek Mansour - Wifi Hack Tool")
     
 import subprocess
 import re
