@@ -37,7 +37,13 @@ def scan_wifi():
 
 
 def select_network(index):
-    pass
+    global selected_network
+    if index < 0 or index >= len(networks):
+        print("Invalid index")
+        return
+    
+    selected_network = networks[index]
+    print(f"Selected Network: SSID: {selected_network.ssid}, BSSID: {selected_network.bssid}")
 
 def show_info():
     pass
