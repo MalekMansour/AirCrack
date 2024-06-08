@@ -57,3 +57,6 @@ def show_info():
     akm = selected_network.akm
     cipher = selected_network.cipher
     print(f"Network Info:\nSSID: {ssid}\nBSSID: {bssid}\nSignal: {signal}\nFrequency: {freq} MHz\nAKM: {akm}\nCipher: {cipher}")
+
+def get_default_gateway():
+    pass
