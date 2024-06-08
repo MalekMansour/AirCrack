@@ -52,3 +52,7 @@ def show_info():
     
     ssid = selected_network.ssid
     bssid = selected_network.bssid
+    signal = selected_network.signal
+    freq = selected_network.freq
+    akm = selected_network.akm
+    cipher = selected_network.cipher
