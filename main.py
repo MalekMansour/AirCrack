@@ -56,3 +56,4 @@ def show_info():
     freq = selected_network.freq
     akm = selected_network.akm
     cipher = selected_network.cipher
+    print(f"Network Info:\nSSID: {ssid}\nBSSID: {bssid}\nSignal: {signal}\nFrequency: {freq} MHz\nAKM: {akm}\nCipher: {cipher}")
