@@ -49,3 +49,5 @@ def show_info():
     if selected_network is None:
         print("No network selected")
         return
+    
+    ssid = selected_network.ssid
