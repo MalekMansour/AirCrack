@@ -98,3 +98,9 @@ def scan_local_network():
 
 def clear_interface():
     print("\033[H\033[J", end="")
+
+
+def reset_selection():
+    global selected_network
+    selected_network = None
+    print("Selected network has been reset.")
