@@ -59,4 +59,21 @@ def show_info():
     print(f"Network Info:\nSSID: {ssid}\nBSSID: {bssid}\nSignal: {signal}\nFrequency: {freq} MHz\nAKM: {akm}\nCipher: {cipher}")
 
 def get_default_gateway():
-    pass
+    try:
+        result = subprocess.run(["ipconfig"], capture_output=True, text=True)
+        output = result.stdout
+
+        lines = output.splitlines()
+        gateway = None
+
+        for line in lines:
+            if "Default Gateway" in line:
+                parts = line.split()
+                if len(parts) > 2 and re.match(r"^\d{1,3}(\.\d{1,3}){3}$", parts[-1]):
+                    gateway = parts[-1]
+                    break
+
+        return gateway
+    except Exception as e:
+        print(f"Error obtaining default gateway: {e}")
+        return None
