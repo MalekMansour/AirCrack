@@ -1,3 +1,3 @@
 # AirCrack
-* AirCracker Wifi Hacking Tool 
-* Current Version: V.1.1.1
+* AirCracker Wifi Hacking Tool using Python
+* Current Version: v.1.1.1
