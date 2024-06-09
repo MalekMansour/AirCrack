@@ -95,3 +95,6 @@ def scan_local_network():
                 print(f"IP: {host}, MAC: Not available")
     else:
         print("Unable to determine the default gateway. Please provide the subnet manually.")
+
+def clear_interface():
+    print("\033[H\033[J", end="")
