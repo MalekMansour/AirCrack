@@ -103,3 +103,6 @@ def main():
     print(" _/ /   \ \_  _| |_  _| |  \ \_   \ `.___.'\ _| |  \ \_  _/ /   \ \_\ `.___.'\ _| |  \ \_  ") 
     print("|____| |____||_____||____| |___|   `.____ .'|____| |___||____| |____|`.____ .'|____||____| ") 
     print("Air Crack v.1.1.1 - Author : Malek Mansour - Wifi Hack Tool")
+
+while True:
+        print("\nCommands:")
