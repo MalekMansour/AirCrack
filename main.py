@@ -5,15 +5,6 @@ import pywifi
 from pywifi import PyWiFi
 import nmap
 
-def main():
-    print("      _       _____  _______         ______  _______          _        ______  ___  ____ ")  
-    print("     / \     |_   _||_   __ \      .' ___  ||_   __ \        / \     .' ___  ||_  ||_  _| ")  
-    print("    / _ \      | |    | |__) |    / .'   \_|  | |__) |      / _ \   / .'   \_|  | |_/ /   ")  
-    print("   / ___ \     | |    |  __ /     | |         |  __ /      / ___ \  | |         |  __'.   ")  
-    print(" _/ /   \ \_  _| |_  _| |  \ \_   \ `.___.'\ _| |  \ \_  _/ /   \ \_\ `.___.'\ _| |  \ \_  ") 
-    print("|____| |____||_____||____| |___|   `.____ .'|____| |___||____| |____|`.____ .'|____||____| ") 
-    print("Air Crack v.1.1.0 - Author : Malek Mansour - Wifi Hack Tool")
-
 # Global variables
 networks = []
 selected_network = None
@@ -99,8 +90,16 @@ def scan_local_network():
 def clear_interface():
     print("\033[H\033[J", end="")
 
-
 def reset_selection():
     global selected_network
     selected_network = None
     print("Selected network has been reset.")
+
+def main():
+    print("      _       _____  _______         ______  _______          _        ______  ___  ____ ")  
+    print("     / \     |_   _||_   __ \      .' ___  ||_   __ \        / \     .' ___  ||_  ||_  _| ")  
+    print("    / _ \      | |    | |__) |    / .'   \_|  | |__) |      / _ \   / .'   \_|  | |_/ /   ")  
+    print("   / ___ \     | |    |  __ /     | |         |  __ /      / ___ \  | |         |  __'.   ")  
+    print(" _/ /   \ \_  _| |_  _| |  \ \_   \ `.___.'\ _| |  \ \_  _/ /   \ \_\ `.___.'\ _| |  \ \_  ") 
+    print("|____| |____||_____||____| |___|   `.____ .'|____| |___||____| |____|`.____ .'|____||____| ") 
+    print("Air Crack v.1.1.1 - Author : Malek Mansour - Wifi Hack Tool")
