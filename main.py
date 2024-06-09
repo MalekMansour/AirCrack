@@ -77,3 +77,21 @@ def get_default_gateway():
     except Exception as e:
         print(f"Error obtaining default gateway: {e}")
         return None
+
+def scan_local_network():
+    nm = nmap.PortScanner()
+    gateway = get_default_gateway()
+    if gateway:
+        ip_parts = gateway.split('.')[:-1]
+        subnet = '.'.join(ip_parts) + '.0/24'
+        nm.scan(hosts=subnet, arguments='-sn')
+    
+        print("Connected Devices:")
+        for host in nm.all_hosts():
+            if 'mac' in nm[host]['addresses']:
+                mac = nm[host]['addresses']['mac']
+                print(f"IP: {host}, MAC: {mac}")
+            else:
+                print(f"IP: {host}, MAC: Not available")
+    else:
+        print("Unable to determine the default gateway. Please provide the subnet manually.")
