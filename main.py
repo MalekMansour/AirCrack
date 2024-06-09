@@ -106,3 +106,4 @@ def main():
 
 while True:
         print("\nCommands:")
+        print("scan - Scan for Wi-Fi networks")
