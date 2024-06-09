@@ -107,3 +107,4 @@ def main():
 while True:
         print("\nCommands:")
         print("scan - Scan for Wi-Fi networks")
+        print("select [index] - Select a specific network by its index")
