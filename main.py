@@ -104,7 +104,7 @@ def main():
     print("|____| |____||_____||____| |___|   `.____ .'|____| |___||____| |____|`.____ .'|____||____| ") 
     print("Air Crack v.1.1.1 - Author : Malek Mansour - Wifi Hack Tool")
 
-while True:
+ while True:
         print("\nCommands:")
         print("scan - Scan for Wi-Fi networks")
         print("select [index] - Select a specific network by its index")
@@ -115,6 +115,6 @@ while True:
         print("reset - Reset the selected network")
         print("exit - Exit the program")
 
-         command = input("Enter command: ").strip().lower()
+        command = input("Enter command: ").strip().lower()
         if command == "scan":
             scan_wifi()
