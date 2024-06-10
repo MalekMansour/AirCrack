@@ -131,5 +131,9 @@ def main():
                 print("No network selected.")
          elif command == "find info":
             show_info()
-         elif command == "find device":
+        elif command == "find device":
             scan_local_network()
+        elif command == "clear":
+            clear_interface()
+        elif command == "reset":
+            reset_selection()
