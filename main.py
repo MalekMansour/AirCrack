@@ -110,3 +110,4 @@ while True:
         print("select [index] - Select a specific network by its index")
         print("find ip - Find IP address of the selected network")
         print("find info - Show information about the selected network")
+        print("find device - Show all devices connected to the selected network")
