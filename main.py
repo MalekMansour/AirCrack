@@ -129,3 +129,5 @@ def main():
                 print(f"Selected Network IP: {get_default_gateway()}")
             else:
                 print("No network selected.")
+         elif command == "find info":
+            show_info()
