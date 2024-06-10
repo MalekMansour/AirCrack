@@ -124,3 +124,8 @@ def main():
                 select_network(index)
             except (IndexError, ValueError):
                 print("Please provide a valid index")
+        elif command == "find ip":
+            if selected_network:
+                print(f"Selected Network IP: {get_default_gateway()}")
+            else:
+                print("No network selected.")
