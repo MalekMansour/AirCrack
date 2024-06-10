@@ -102,9 +102,9 @@ def main():
     print("   / ___ \     | |    |  __ /     | |         |  __ /      / ___ \  | |         |  __'.   ")  
     print(" _/ /   \ \_  _| |_  _| |  \ \_   \ `.___.'\ _| |  \ \_  _/ /   \ \_\ `.___.'\ _| |  \ \_  ") 
     print("|____| |____||_____||____| |___|   `.____ .'|____| |___||____| |____|`.____ .'|____||____| ") 
-    print("Air Crack v.1.1.1 - Author : Malek Mansour - Wifi Hack Tool")
+    print("Air Crack v.1.1.2 - Author : Malek Mansour - Wifi Hack Tool")
 
- while True:
+    while True:
         print("\nCommands:")
         print("scan - Scan for Wi-Fi networks")
         print("select [index] - Select a specific network by its index")
@@ -129,7 +129,7 @@ def main():
                 print(f"Selected Network IP: {get_default_gateway()}")
             else:
                 print("No network selected.")
-         elif command == "find info":
+        elif command == "find info":
             show_info()
         elif command == "find device":
             scan_local_network()
