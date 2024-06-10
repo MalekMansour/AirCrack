@@ -137,3 +137,7 @@ def main():
             clear_interface()
         elif command == "reset":
             reset_selection()
+        elif command == "exit":
+            break
+        else:
+            print("Invalid command")
