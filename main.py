@@ -118,3 +118,9 @@ def main():
         command = input("Enter command: ").strip().lower()
         if command == "scan":
             scan_wifi()
+        elif command.startswith("select "):
+            try:
+                index = int(command.split()[1])
+                select_network(index)
+            except (IndexError, ValueError):
+                print("Please provide a valid index")
