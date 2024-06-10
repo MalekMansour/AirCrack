@@ -115,3 +115,6 @@ while True:
         print("reset - Reset the selected network")
         print("exit - Exit the program")
 
+         command = input("Enter command: ").strip().lower()
+        if command == "scan":
+            scan_wifi()
