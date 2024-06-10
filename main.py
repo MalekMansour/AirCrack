@@ -111,3 +111,4 @@ while True:
         print("find ip - Find IP address of the selected network")
         print("find info - Show information about the selected network")
         print("find device - Show all devices connected to the selected network")
+        print("clear - Clear the interface")
