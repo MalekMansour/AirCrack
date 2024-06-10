@@ -16,3 +16,9 @@ Air Crack is a Wi-Fi hacking tool that allows users to scan for available Wi-Fi 
 - Clear the interface
 - Reset the selected network
 
+## Requirements
+
+- Python 3.x
+- `pywifi` library
+- `nmap` library
+
