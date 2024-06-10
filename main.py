@@ -112,3 +112,6 @@ while True:
         print("find info - Show information about the selected network")
         print("find device - Show all devices connected to the selected network")
         print("clear - Clear the interface")
+        print("reset - Reset the selected network")
+        print("exit - Exit the program")
+
