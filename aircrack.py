@@ -37,6 +37,7 @@ def select_network(index):
     selected_network = networks[index]
     print(f"Selected Network: SSID: {selected_network.ssid}, BSSID: {selected_network.bssid}")
 
+# Show Info
 def show_info():
     if selected_network is None:
         print("No network selected")
