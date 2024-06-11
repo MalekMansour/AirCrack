@@ -72,6 +72,7 @@ def get_default_gateway():
         print(f"Error obtaining default gateway: {e}")
         return None
 
+# Scan Local Network
 def scan_local_network():
     nm = nmap.PortScanner()
     gateway = get_default_gateway()
@@ -90,9 +91,11 @@ def scan_local_network():
     else:
         print("Unable to determine the default gateway. Please provide the subnet manually.")
 
+# Clear Interface
 def clear_interface():
     print("\033[H\033[J", end="")
 
+# Reset Selection (Unselect Network)
 def reset_selection():
     global selected_network
     selected_network = None
