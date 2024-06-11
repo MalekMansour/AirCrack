@@ -27,6 +27,7 @@ def scan_wifi():
         signal = network.signal
         print(f"{idx}. SSID: {ssid}, BSSID: {bssid}, Signal: {signal}")
 
+# Select Network
 def select_network(index):
     global selected_network
     if index < 0 or index >= len(networks):
