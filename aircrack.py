@@ -101,6 +101,7 @@ def reset_selection():
     selected_network = None
     print("Selected network has been reset.")
 
+# Main Function
 def main():
     print("      _       _____  _______         ______  _______          _        ______  ___  ____ ")  
     print("     / \     |_   _||_   __ \      .' ___  ||_   __ \        / \     .' ___  ||_  ||_  _| ")  
